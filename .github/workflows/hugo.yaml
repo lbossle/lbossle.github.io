@@ -23,7 +23,7 @@ jobs:
       HUGO_VERSION: 0.161.1
       NODE_VERSION: 24.15.0
       TZ: Europe/Oslo
-      HUGO_PARAMS_EMAIL: ${{ vars.HUGO_PARAMS_EMAIL }}
+      HUGO_PARAMS_email: ${{ vars.HUGO_PARAMS_EMAIL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6

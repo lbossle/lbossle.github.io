@@ -4,6 +4,8 @@ title: Ludwig Bossle
 theme: ["PaperMod"]
 
 params:
+  email: "test@example.com"
+
   homeInfoParams:
     Title: Hi there
     Content: This is my personal website.
