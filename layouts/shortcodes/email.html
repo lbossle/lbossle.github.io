@@ -1,0 +1,7 @@
+{{- $email := os.Getenv "HUGO_PARAMS_email" -}}
+
+{{- if $email -}}
+<a href="mailto:{{ $email }}">{{ $email }}</a>
+{{- else -}}
+<span>Email not configured</span>
+{{- end -}}
