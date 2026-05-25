@@ -96,8 +96,6 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
-      - name: Debug env
-        run: echo "$HUGO_PARAMS_email"
   deploy:
     environment:
       name: github-pages
