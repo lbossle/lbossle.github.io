@@ -17,6 +17,7 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: github-pages
     env:
       DART_SASS_VERSION: 1.99.0
       GO_VERSION: 1.26.2
