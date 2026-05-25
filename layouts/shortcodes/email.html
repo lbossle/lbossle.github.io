@@ -1,4 +1,4 @@
-{{- $email := os.Getenv "HUGO_PARAMS_email" -}}
+{{- $email := os.Getenv "HUGO_PARAMS_EMAIL" -}}
 
 {{- if $email -}}
 <a href="mailto:{{ $email }}">{{ $email }}</a>

@@ -4,7 +4,7 @@
     {{- $url := .url }}
 
     {{- if eq .name "email" }}
-      {{- $email := os.Getenv "HUGO_PARAMS_email" }}
+      {{- $email := os.Getenv "HUGO_PARAMS_EMAIL" }}
       {{- $url = printf "mailto:%s" $email }}
     {{- end }}
 
